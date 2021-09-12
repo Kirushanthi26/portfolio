@@ -1,11 +1,12 @@
 import './App.css';
+import Header from './components/header/Header.js';
+import Home from './components/home/Home.js';
 
 function App() {
   return (
     <div className="App">
-      <div className="md:container md:mx-auto">
-          <h1 className="">kirushanthi Letchumanan</h1>
-      </div>
+        <Header/>
+        <Home/>
     </div>
   );
 }
